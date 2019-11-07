@@ -1,0 +1,358 @@
+2019/11/07 17:21:56 [error] 8577#8577: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+Unable to open primary script: /var/www/alli/index.php (Permission denied)" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru"
+2019/11/07 17:21:56 [error] 8577#8577: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+Unable to open primary script: /var/www/alli/index.php (Permission denied)" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:22:35 [error] 8577#8577: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru"
+2019/11/07 17:22:36 [error] 8577#8577: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:22:43 [error] 8577#8577: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru"
+2019/11/07 17:22:44 [error] 8577#8577: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:23:14 [error] 8577#8577: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(15): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru"
+2019/11/07 17:23:14 [error] 8577#8577: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(15): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:24:47 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:24:47 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:24:55 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:24:56 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:25:34 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:25:34 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:26:11 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:26:11 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:26:12 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:26:12 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:26:14 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:26:14 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:26:18 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru"
+2019/11/07 17:26:19 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:26:25 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /?XDEBUG_SESSION_START=14998 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru"
+2019/11/07 17:26:28 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/?XDEBUG_SESSION_START=14998"
+2019/11/07 17:26:36 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /?XDEBUG_SESSION_START=14998 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/?XDEBUG_SESSION_START=14998"
+2019/11/07 17:26:38 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/?XDEBUG_SESSION_START=14998"
+2019/11/07 17:26:42 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /?XDEBUG_SESSION_START=14998 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/?XDEBUG_SESSION_START=14998"
+2019/11/07 17:26:42 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/?XDEBUG_SESSION_START=14998"
+2019/11/07 17:26:46 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru"
+2019/11/07 17:26:46 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:26:48 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:26:49 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:26:55 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:26:55 [error] 8577#8577: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:28:31 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:28:31 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:21 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:21 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:24 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:24 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:25 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:25 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:31 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:31 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:33 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:33 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:34 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:34 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:29:53 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:30:01 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:30:01 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:30:03 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:30:03 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:30:44 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:31:01 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:31:02 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:31:03 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:31:03 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:31:42 [error] 8577#8577: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `alli.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('alli.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('alli.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: alli.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "alli.ru", referrer: "http://alli.ru/"
+2019/11/07 17:33:10 [error] 11401#11401: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `localhost.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('localhost.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('localhost.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: localhost.ru, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost.ru"
+2019/11/07 17:33:10 [error] 11401#11401: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Exception: Config `localhost.ru' is invalid in /var/www/alli/lib/test/Config.php:46
+Stack trace:
+#0 /var/www/alli/lib/test/Config.php(19): test\Config->_use('localhost.ru', true)
+#1 /var/www/alli/index.php(14): test\Config->set('localhost.ru')
+#2 {main}
+  thrown in /var/www/alli/lib/test/Config.php on line 46" while reading response header from upstream, client: 127.0.0.1, server: localhost.ru, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost.ru", referrer: "http://localhost.ru/"
